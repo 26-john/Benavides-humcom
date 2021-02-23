@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Exercise3</title>
+           <meta name="author" content
+   </head>
+
+   <style>
+    h3{
+        font-size: 20pt;
+    }
+    p {
+        font-size: 15pt;
+    }
+
+   </style>
+
+   <body>
+    <h1>HOW TO COOK CARBONARA</h1>
+    <hr size="3"; width="100%"; color=
+
+    <h3>BEFORE TO PROCEED</h3>
+    <p>These are the following tools y
+    <font size=5pt>
+        <ul> 
+            <li>A <b>Pasta Pot</b> to 
+            <li>A <b>Wooden Spoon</b>f
+            <li>A <b>Tong</b>to pluck 
+            <li>A <b>Spider</b>, NO! N
+            you drain your noodles.</l
+            <lil>A <b>Measuring Cup</b
+            <li>A <b>Tablespoon</b>an 
+            <li>A <b>Bowl</b> to place
+            
+        </ul>
+        
+    </font>
+
+    <br>
+    <br>
+    <br>
+    
+    <h3>INGREDIENTS</h3>
+    <p>Before you start to cook, you n
+       and measurements.</p>
+    
+     <!--Ingredients-->
+    <font size=5pt>
+    <ul>
+        <li>1/2 lb box <b>Pasta of Spa
+        <li>3-4 slices of <b>Bacon</b>
+        <li>2 Beaten <b>Eggs</b></li>
+        <li>1/2 cup of grated <b>Parme
+        <li>A 1/16 cup or a single tab
+        <li>A pinch of <b>Salt</b></li
+    </ul>
+    </font>   
+    <br>
+    <br>
+    <br>
+    <h3>PROCEDURES</h3>
+    <p>After all you settled the tools
+        procedures to cook a Carbonara
+    </p>
+    <font size=5pt>
+    <ul>
+        <li><b>Step 1</b></li>
+        <ul type='circle'>
+            <li>Start to heat the pot 
+        </ul>
+         
+    <ul>
+        <li><b>Step 2</b></li>
+        <ul type='circle'>
+            <li>Once the water started
+        </ul>      
+
+    </font>
+
+   </body>
