@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="JC.Benavides">
+        <title>HTML Form Elements</title>
+    </head>
+    <body>
+        <form>
+            <table align="center" width="80%">
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" id="fname" required placeholder="X Æ A-Xii" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td><input type="tel" size="15" required placeholder="666-666-6666" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Phone Number</label></td>
+                    <td><input type"tel" size="15" required placeholder="+XXX-0XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password</label></td>
+                    <td><input type="password" id="pwd" size="25" maxlength="15" minlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">Birthday</label></td>
+                    <td><input type="Date" id="bday" min="2000-01-01" max="2021-01-01"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><select type="Date" id="gender" name="gender">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="NONE">There are only 2 genders, pick one</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course</label></td>
+                    <td><input type="checkbox" id="course" name="course" value="BSCS"><label>BSCS</label>
+                        <input type="checkbox" id="course" name="course" value="BSIT"><label>BSIT</label>
+                        <input type="checkbox" id="course" name="course" value="BSCpE"><label>BSCpE</label>
+                </tr>
+                <tr>
+                    <td><label for="hob">Hobbies</label></td>
+                    <td><input type="checkbox" id="hob" name="hobby1" value="Music"><label>Music</label>
+                        <input type="checkbox" id="hob" name="hobby2" value="Sports"><label>Sports</label>
+                        <input type="checkbox" id="hob" name="hobby3" value="Games"><label>Games</label>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
