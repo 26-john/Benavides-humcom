@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{ /* this is a universal property */
     font-family: 'Gill Sans', 'Gill Sans 
     MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -56,4 +57,64 @@ div{
     width: 400px;
     
     
+=======
+*{ /* this is a universal property */
+    font-family: 'Gill Sans', 'Gill Sans 
+    MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+body
+{
+    background-color: antiquewhite;
+
+}
+#mainContent{  /*div*/
+    width: 1024px;
+    border: 1pt #BA4A00 solid;
+}
+header, nav, article, footer, .sec{
+    width: 960px;
+    height: 200px;
+    border: 1pt #2E4035 solid;
+}
+ul{
+    padding: 0px;
+    list-style: none;
+}
+a, a:active{
+    text-decoration: none;
+    color:gray
+}
+li{
+    display: inline-block;
+    width: 150px;
+    background-color: coral;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px; /*make the navigation buttons go circul*/
+}
+a:hover{ /*changes hyperlink text colors when hovered*/
+    color:cornsilk;
+}
+article{
+    height: min-content; 
+}
+div{
+    float:left;
+    height: max-content;
+    width: min-content;
+}
+.one, .two{
+    width: 500px;
+    float:left;
+}
+.three{
+    float:right;
+    height:400px;
+    width: 400px;
+    
+    
+>>>>>>> 38fcec389c9cad30eedb95eb6e320d223917a865
 }
