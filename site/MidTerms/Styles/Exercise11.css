@@ -1,47 +1,150 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title>Exercise 11</title>
-    <meta charset="utf-8">
-    <meta name="author" content="JC.Benavides">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Styles/Exercise11.css">
-    </head>
-    <body>
-        <div id="Body">body
-            <header class="headB">header
-            <nav class="navB">nav</nav>
-            </header>
-        <!--SECTION LEFT-->
-        <section class="secL">section
-        <header class="headL">header</header>
-        <nav class="navL">nav</nav>
-        <footer class="footL">footer</footer>
-        </section>
-        <!--END Of SECTION LEFT-->
-        <!--SECTION RIGHT-->
-        <section class="secR">section
-        <header class="headR">header</header>
-        <!--ARTICLE1-->
-        <article class="artR1">article
-            <header class="headR1">header</header>
-            <p class="paraR1-1">p</p>
-            <p class="paraR1-2">p</p>
-            <footer class="footR1">footer</footer>
-        </article>
-        <!--END of ARTICLE1-->
-        <!--ARTICLE2-->
-        <article class="artR2">article
-            <header class="headR2">header</header>
-            <p class="paraR2-1">p</p>
-            <aside>aside</aside>
-            <footer class="footR2">footer</footer>
-        </article>
-        <!--END of ARTICLE2-->
-        <footer class="footR">footer</footer>
-        </section>
-        <!--END Of SECTION RIGHT-->
-        <footer class="endFoot">footer</footer>
-        </div>
-        </body>
-        </html>
+*{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+#Body{ 
+    padding: 15px;
+    text-align: center;
+    width: 65%;
+    height: 100%;
+    border: 1pt black solid;
+    background-color: #a9a9a9;
+}
+.headB{
+    width: 100%;
+    height: 85px;
+    border: 1pt black solid;
+    background-color: #d7d7d7;
+}
+.navB{
+    width: 91%;
+    height: 40px;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.secL{
+    float: left;
+    width: 30%;
+    height: 62%;
+    border: 1pt black solid;
+    background-color: #d7d7d7;
+}
+.headL{
+    padding: 15px 0;
+    width: 90%;;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.navL{
+    width: 90%;
+    padding: 350px 0;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.footL{
+    width: 90%;
+    padding: 20px 0;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.secR{
+    float: right;
+    width: 68%;
+    height: 896px;
+    border: 1pt black solid;
+    background-color: #d0d0d0;
+}
+.headR{ 
+    margin-bottom: 25px;
+    padding: 15px 0;
+    width: 95%;;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.artR1{
+    margin-bottom: 25px;
+    width: 95%;
+    height: 32%;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.headR1{
+    margin-bottom: 25px;
+    width: 95%;
+    padding: 10px;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+.paraR1-1{
+    margin-bottom: 25px;
+    width: 95%;
+    padding: 10px;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+.paraR1-2{
+    margin-bottom: 25px;
+    width: 95%;
+    padding: 10px;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+.footR1{
+    margin-bottom: 25px 25px;
+    width: 95%;
+    padding: 10px;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+
+.artR2{
+    padding: 15px;
+    margin-bottom: 25px;
+    width: 95%;
+    height: 43%;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.headR2{
+    width: 100%;
+    padding: 10px;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+.paraR2-1{
+    padding: 90px 0;
+    float: left;
+    width: 60%;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+aside{
+    padding: 90px 0;
+    float: right;
+    width: 38%;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+.footR2{
+    clear: right;
+    width: 100%;
+    padding: 10px;
+    border: 1pt black solid;
+    background-color: #ffffff;
+}
+.footR{ 
+    margin-bottom: 25px;
+    padding: 15px 0;
+    width: 95%;;
+    border: 1pt black solid;
+    background-color: #ececec;
+}
+.endFoot{
+    clear: right;
+    margin-bottom: 25px;
+    padding: 25px 0;
+    width: 100%;;
+    border: 1pt black solid;
+    background-color: #c1c1c1;
+}
