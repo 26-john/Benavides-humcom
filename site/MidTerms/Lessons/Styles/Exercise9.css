@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 body {
     background-image: url('MyOfficialBG.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+=======
+body {
+    background-image: url('MyOfficialBG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+>>>>>>> 38fcec389c9cad30eedb95eb6e320d223917a865
     }
